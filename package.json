@@ -1,0 +1,34 @@
+{
+  "name": "vibe-coders-git-assistant",
+  "version": "0.1.0",
+  "description": "A Claude Desktop plugin that seamlessly integrates version control for non-technical users",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujay3srivastava/vibe-coders-git-assistant.git"
+  },
+  "keywords": [
+    "claude",
+    "mcp",
+    "git",
+    "version-control",
+    "beginner-friendly"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "octokit": "^2.0.14",
+    "simple-git": "^3.15.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.15"
+  }
+}
